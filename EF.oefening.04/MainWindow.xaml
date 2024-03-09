@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EF.oefening._04"
         mc:Ignorable="d"
-        Title="MainWindow" Height="320" Width="420" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Label Content="Faculteit van een getal" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" FontSize="24"/>
+                Title="Faculteit" Height="320" Width="420">
+<Grid>
+    <Label Content="Faculteit van een getal" HorizontalAlignment="Left" Margin="30,30,0,0" VerticalAlignment="Top" FontSize="24"/>
 
-        <Label Content="Getal" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox x:Name="TxtGetal" Text=""  HorizontalAlignment="Left" Margin="120,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="18" TextAlignment="Right"/>
+    <Label Content="Getal" HorizontalAlignment="Left" Margin="30,100,0,0" VerticalAlignment="Top" FontSize="18"/>
+    <TextBox x:Name="TxtGetal" Text=""  HorizontalAlignment="Left" Margin="120,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150" FontSize="18" TextAlignment="Right"/>
 
-        <Label Content="Resultaat" HorizontalAlignment="Left" Margin="30,149,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox x:Name="TxtResultaat" Text=""  HorizontalAlignment="Left" Margin="120,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="18" TextAlignment="Right"/>
-
-        <Button x:Name="BtnBereken" Content="Bereken" HorizontalAlignment="Left" Margin="150,216,0,0" VerticalAlignment="Top" Width="120" FontSize="18" Click="BtnBereken_Click"/>
+    <Label Content="Resultaat" HorizontalAlignment="Left" Margin="30,149,0,0" VerticalAlignment="Top" FontSize="18"/>
+    <TextBox x:Name="TxtResultaat" Text=""  HorizontalAlignment="Left" Margin="120,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" FontSize="18" TextAlignment="Right" IsReadOnly="true" FontWeight="Bold"/>
+    
+    <Button x:Name="BtnBereken" Content="Bereken" HorizontalAlignment="Left" Margin="250,220,0,0" VerticalAlgnment="Top" Width="120" FontSize="18" Click="BtnBereken_Click"/>
 
     </Grid>
 </Window>
